@@ -48,7 +48,6 @@ public class MathCalculator extends CordovaPlugin {
             }catch(Exception ex){
                 callbackContext.error("Ocorreu um erro. " + ex);
             }
-            callbackContext.success(message);
         } else {
             callbackContext.error("Por favor informe os valores.");
         }
@@ -64,7 +63,6 @@ public class MathCalculator extends CordovaPlugin {
             }catch(Exception ex){
                 callbackContext.error("Ocorreu um erro. " + ex);
             }
-            callbackContext.success(message);
         } else {
             callbackContext.error("Por favor informe os valores.");
         }
